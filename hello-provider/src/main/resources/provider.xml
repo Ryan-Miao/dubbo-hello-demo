@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans        http://www.springframework.org/schema/beans/spring-beans.xsd        http://code.alibabatech.com/schema/dubbo        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!-- 提供方应用信息，用于计算依赖关系 -->
-    <dubbo:application name="hello-world-app"  />
+    <dubbo:application name="hello-provider"  />
 
     <!-- 使用multicast广播注册中心暴露服务地址 -->
     <dubbo:registry address="multicast://224.5.6.7:1234" />
